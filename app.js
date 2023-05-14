@@ -1,3 +1,6 @@
+const mediaQuery1 = window.matchMedia('(min-width: 981px)');
+if (mediaQuery1.matches) {
+
 var WIIPapp = (function (global) {
 
     function init() {
@@ -25,3 +28,6 @@ var WIIPapp = (function (global) {
 
 document.addEventListener("DOMContentLoaded", WIIPapp.init);
 
+}
+const mediaQuery2 = window.matchMedia('(min-width: 600px)')
+if (mediaQuery2.matches) {}
